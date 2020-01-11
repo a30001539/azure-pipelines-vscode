@@ -19347,6 +19347,16 @@
 									"aliases": [
 										"CustomTargetAzurePs"
 									]
+								},
+								"pwsh": {
+									"type": "boolean",
+									"description": "Use PowerShell Core",
+									"ignoreCase": "key"
+								},
+								"workingDirectory": {
+									"type": "string",
+									"description": "Working Directory",
+									"ignoreCase": "key"
 								}
 							},
 							"additionalProperties": false,
